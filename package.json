@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kathsydoruk/aqa-cypress/issues"
   },
-  "homepage": "https://github.com/kathsydoruk/aqa-cypress#readme"
+  "homepage": "https://github.com/kathsydoruk/aqa-cypress#readme",
+  "devDependencies": {
+    "cypress": "^15.7.0"
+  }
 }
