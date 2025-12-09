@@ -11,6 +11,7 @@
     "url": "git+https://github.com/kathsydoruk/aqa-cypress.git"
   },
   "author": "",
+  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kathsydoruk/aqa-cypress/issues"
