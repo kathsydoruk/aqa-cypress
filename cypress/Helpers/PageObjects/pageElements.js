@@ -24,6 +24,30 @@ class Header {
   get btnSignUp() {
     return this.#baseElements.getElement("button.hero-descriptor_btn");
   }
+
+  get garageProfile() {
+    return this.#baseElements.getElement("#userNavDropdown");
+  }
+
+  get garageDropdownProfile() {
+    return this.#baseElements.getElement("a[routerlink='/panel/profile']");
+  }
+
+  get garagePageTitle() {
+    return this.#baseElements.getElement("app-garage h1");
+  }
+
+  get garagePageMsg() {
+    return this.#baseElements.getElement(".panel-empty_message");
+  }
+
+  get profilePageTitle() {
+    return this.#baseElements.getElement(".panel-page_heading h1");
+  }
+
+  get profilePageUserName() {
+    return this.#baseElements.getElement(".profile_name");
+  }
 }
 
 class Footer {
@@ -52,7 +76,9 @@ class Footer {
 
   // === Contacts ===
   get linkWebsite() {
-    return this.#baseElements.getElement('a.contacts_link[href*="ithillel.ua"]');
+    return this.#baseElements.getElement(
+      'a.contacts_link[href*="ithillel.ua"]'
+    );
   }
 
   get linkEmail() {
