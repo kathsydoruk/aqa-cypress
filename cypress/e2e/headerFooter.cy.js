@@ -29,7 +29,7 @@ describe("Header navigation and Sign up button", () => {
   it("TC4 Sign up button opens the registration modal", () => {
     header.btnSignUp.should("be.visible").click();
     modals.modalSingUp.should("be.visible");
-    modals.titleSignUp.should("contain", "Registration");
+    modals.titleModal.should("contain", "Registration");
   });
 
   it("TC5 Footer links elements are presented ", () => {
