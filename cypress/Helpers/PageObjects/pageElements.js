@@ -48,6 +48,10 @@ class Header {
   get profilePageUserName() {
     return this.#baseElements.getElement(".profile_name");
   }
+
+  get fuelExpenses() {
+    return cy.get('nav.header_nav a[routerlink="/panel/expenses"]');
+  }
 }
 
 class Footer {
