@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:reporter": "cypress run --browser chrome --spec \"cypress\\e2e\\headerFooter.cy.js\" --reporter mochawesome",
-    "test:qauto": "cypress run --spec \"cypress\\e2e\\garageExpenses.cy.js\" --config-file cypress.config.qauto.js",
+    "test:qauto": "cypress run --spec \"cypress\\e2e\\carCreateValidate.cy.js\" --config-file cypress.config.qauto.js",
     "test:qauto2": "cypress run --spec \"cypress\\e2e\\garageExpenses.cy.js\" --config-file cypress.config.qauto2.js",
     "open:qauto": "cypress open --config-file cypress.config.qauto.js",
     "open:qauto2": "cypress open --config-file cypress.config.qauto2.js",
@@ -28,5 +28,8 @@
     "mochawesome": "^7.1.4",
     "mochawesome-merge": "^5.1.0",
     "mochawesome-report-generator": "^6.3.2"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
   }
 }
