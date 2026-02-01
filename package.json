@@ -10,7 +10,7 @@
     "open:qauto": "cypress open --config-file cypress.config.qauto.js",
     "open:qauto2": "cypress open --config-file cypress.config.qauto2.js",
     "open:qauto:all": "npm run test:qauto && npm run test:qauto2",
-    "test1": "cypress run --config-file cypress.config.qauto.сjs --browser firefox"
+    "test1": "cypress run --config-file cypress.config.qauto.js --browser firefox"
   },
   "repository": {
     "type": "git",
