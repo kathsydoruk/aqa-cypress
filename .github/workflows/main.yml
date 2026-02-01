@@ -2,7 +2,8 @@ name: Cypress in Docker (GitHub Actions)
 
 on:
   push:
-    branches: ["**"]
+    branches: 
+    - main
   pull_request:
 
 jobs:
