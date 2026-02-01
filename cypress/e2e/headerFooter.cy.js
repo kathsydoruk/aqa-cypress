@@ -1,7 +1,7 @@
-import { BasePage } from "../Helpers/PageObjects/BasePage";
-import { header } from "../Helpers/PageObjects/pageElements";
-import { footer } from "../Helpers/PageObjects/pageElements";
-import { modals } from "../Helpers/PageObjects/modalElements";
+import { BasePage } from "../Helpers/PageObjects/BasePage.js";
+import { header } from "../Helpers/PageObjects/PageElements.js";
+import { footer } from "../Helpers/PageObjects/PageElements.js";
+import { modals } from "../Helpers/PageObjects/ModalElements.js";
 
 describe("Header navigation and Sign up button", () => {
   const basePage = new BasePage();

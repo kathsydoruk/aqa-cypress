@@ -1,7 +1,7 @@
-import { BasePage } from "../Helpers/PageObjects/BasePage";
-import { header } from "../Helpers/PageObjects/pageElements";
-import { modals } from "../Helpers/PageObjects/modalElements";
-import "../Helpers/Commands/commands";
+import { BasePage } from "../Helpers/PageObjects/BasePage.js";
+import { header } from "../Helpers/PageObjects/PageElements.js";
+import { modals } from "../Helpers/PageObjects/ModalElements.js";
+import "../Helpers/Commands/commands.js";
 
 describe("Sign In Form functionality check", () => {
   const basePage = new BasePage();

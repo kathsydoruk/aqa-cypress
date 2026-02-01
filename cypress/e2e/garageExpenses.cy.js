@@ -1,9 +1,9 @@
-import { BasePage } from "../Helpers/PageObjects/BasePage";
-import { header } from "../Helpers/PageObjects/pageElements";
-import { modals } from "../Helpers/PageObjects/modalElements";
-import { garagePage } from "../Helpers/PageObjects/garagePage";
-import { expensesPage } from "../Helpers/PageObjects/expensesPage";
-import "../Helpers/Commands/commands";
+import { BasePage } from "../Helpers/PageObjects/BasePage.js";
+import { header } from "../Helpers/PageObjects/PageElements.js";
+import { modals } from "../Helpers/PageObjects/ModalElements.js";
+import { garagePage } from "../Helpers/PageObjects/GaragePage.js";
+import { expensesPage } from "../Helpers/PageObjects/ExpensesPage.js";
+import "../Helpers/Commands/commands.js";
 
 describe("Garage and Fuel Expenses flow", () => {
   const basePage = new BasePage();

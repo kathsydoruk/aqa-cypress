@@ -1,4 +1,4 @@
-import BaseElements from "../Elements/baseElements";
+import BaseElements from "../Elements/baseElements.js";
 
 class GaragePage {
   #baseElements = new BaseElements();

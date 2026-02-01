@@ -1,5 +1,5 @@
-import { modals } from "../PageObjects/modalElements";
-import { header } from "../PageObjects/pageElements";
+import { modals } from "../PageObjects/ModalElements.js";
+import { header } from "../PageObjects/PageElements.js";
 
 Cypress.Commands.overwrite(
   "type",
